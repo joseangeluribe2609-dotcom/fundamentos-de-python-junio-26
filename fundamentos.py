@@ -1,24 +1,24 @@
 #variables 
-name = "josefino"
+# name = "josefino"
 
-last_name = "primero"
+# last_name = "primero"
 
-#print (last_name)
+# #print (last_name)
 
 
-#operatores matemáticos 
+# #operatores matemáticos 
 
-num1 = 10
+# num1 = 10
 
-num2 = 5
+# num2 = 5
 
-suma = num1 + num2
+# suma = num1 + num2
 
-resta = num1 - num2
+# resta = num1 - num2
 
-multiplicacion = num1 * num2
+# multiplicacion = num1 * num2
 
-division = num1 / num2
+# division = num1 / num2
 
 
 #print (suma)
@@ -85,9 +85,9 @@ division = num1 / num2
 
 #condisionles anidados
 
-edad = 19
-genero = "mujer"
-dia = "jueves"
+# edad = 19
+# genero = "mujer"
+# dia = "jueves"
 
 # if edad >= 18:
 
@@ -121,30 +121,89 @@ dia = "jueves"
 
 # priedra papel o tijera
 
-player1 = "tijera"
-player2 = " papel"
-player3 = "piedra"
+# player1 = "tijera"
+# player2 = " papel"
+# player3 = "piedra"
 
-if player1 == "tijera" and player2 == "papel":
+# if player1 == "tijera" and player2 == "papel":
 
-    print ("player1 gana")
+#     print ("player1 gana")
 
-elif player1 == "papel" and player2 == "piedra":
+# elif player1 == "papel" and player2 == "piedra":
 
-    print ("player1 gana")
+#     print ("player1 gana")
 
-elif player1 == "piedra" and player2 == "tijera":
+# elif player1 == "piedra" and player2 == "tijera":
 
-    print ("player1 gana")
+#     print ("player1 gana")
 
-elif player1 == "tijera" and player2 == "piedra":
+# elif player1 == "tijera" and player2 == "piedra":
 
-    print ("player2 gana")
+#     print ("player2 gana")
 
-else: 
+# else: 
     
-    print("empate")
+#     print("empate")
 
-#es estructura de datos 
-#listas 
+#es estructura de datos
+name_list = ["josefino", "primero", " segundo", "tersero ", "cuarto"]
+age_list = [19, 20, 21, 22, 23]
+weight_list = [6.0, 7.0, 8.0, 90, 10.0]
 
+name_list2 = [
+                "josefino",
+                "primero",
+                " segndo ",
+                " tersero ",
+            ]
+
+
+# #agregar elementos a la lista
+
+# # name_list.append("cuarto")
+
+# # print(len(name_list))
+
+# print(name_list[-1])
+
+# # cambiar el vaalor de el primer valor de la laista
+# name_list[0] = "ruperto "
+
+# #tuplas 
+#             name_tuple = ("josefino", 
+#                           "primero", 
+#                           "segundo", 
+#                           "tercero", 
+#                           "cuarto",
+#                           )
+
+# print(name_tuple[0]) 
+#discdionario 
+
+name_dict = {
+    
+    "name": "josefino",
+    "last_name": "primero",
+    "age": 19,
+    "weight": 6.0,
+    "favorite_foods": ["pizza", "hamburguesa", "tacos"],
+    "adress": {
+        "street": "calle 123",
+        "city": "lecheria",
+        "country": " venezuela",
+    }
+}
+
+# print(name_dict["adress"][city]) #lecheria
+#print[name_dict["favorite_foods"][0]) #pizza
+
+#BUCLES 
+# for name in name_list:
+
+#     if name == "segundo":
+#         print(f"hola {name}")
+
+
+
+for i in range(len (name_list)):
+    print(f"hola {name_list[i]}")
