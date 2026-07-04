@@ -203,7 +203,53 @@ name_dict = {
 #     if name == "segundo":
 #         print(f"hola {name}")
 
+# print(len(name_list))
+
+# for i in range(len(name_list)):
+#     print(f"hola {name_list[i]}")
+
+#funciones
+
+def saludos ():
+
+    print (("epale"))
+
+# saludos ()
+
+def saludos2 (name):
+
+    print (f"hola {name}")
+
+# saludos2("josefino")
+
+def saludos3 (name, last_name):
+
+    print (f"hola {name} {last_name}")
+
+# saludos3("josefino", "primero"
+# saludos3("primero", " josefino ")
+
+# saludos3(last_name= "primero", name= "josefino")
+
+def saludos4 (name="fulanito", last_name= "del tal"):
+
+    print (f"hola {name} {last_name}")
 
 
-for i in range(len (name_list)):
-    print(f"hola {name_list[i]}")
+# saludos4("ruperto")
+# saludos4(last_name= "segundo")
+
+def saludos5 (name: str= "fulanito", last_name: str= "del tal") -> str:
+"""
+fundamentos de saluda con nombre y apellido
+name: str
+last_name: str
+return -> str
+
+"""
+
+return print(f"hola {name} {last_name}")
+
+saludos5("pedro", "perez")
+
+
